@@ -1,0 +1,235 @@
+<?xml version="1.0" ?>
+<resume>
+  <firstname>Nitin</firstname>
+  <lastname>Anand</lastname>
+  <address>C-702, Urban Nirvana, S.No. 57/4, Kharadi, Pune-400057.</address>
+  <phone>+919860420747</phone>
+  <website>http://an.andnit.in/</website>
+  <email>nitinjavakid@gmail.com</email>
+  <section>
+    <title>Current Role Description</title>
+    <description>
+      Currently working as Software Engineer(Development) at Symantec India.
+    </description>
+  </section>
+  <section>
+    <title>Skill/Experience Summary</title>
+    <description>
+      During two years in Symantec, I have worked on components like Veritas Mapping Services,
+      Snapshot Client and Core of the Industry leading Backup Software NetBackup. The work 
+      that I have done is primarily based on Storage and Virtualization Domain. Along with the
+      regular development work, I have been engaged in various customer facing activities as 
+      well as research and prototype projects. I have delivered exceptional results in all the 
+      projects assigned to me.
+    </description>
+  </section>
+  <section>
+    <title>Technology Experience</title>
+    <description>
+      <hlist>
+	<entry>File Systems</entry>
+	<entry>Storage (I/O) stack</entry>
+	<entry>Virtualization (VMware, Hyper-V and Xen)</entry>
+	<entry>Volume Shadow Copy Service (VSS)</entry>
+	<entry>Linux Kernel Development</entry>
+      </hlist>
+    </description>
+  </section>
+  <section>
+    <title>Software</title>
+    <description>
+      <hashtable first-width="6cm">
+	<hash-entry>
+	  <key>Operation Systems</key>
+	  <value>Linux</value>
+	  <value>Windows</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>File Systems</key>
+	  <value>Ext2/3/4</value>
+	  <value>NTFS</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Volume Managers</key>
+	  <value>LVM</value>
+	  <value>LDM</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Programming Languages</key>
+	  <value>C/C++</value>
+	  <value>Java</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Hypervisors</key>
+	  <value>VMware</value>
+	  <value>Hyper-V</value>
+	  <value>Xen</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Miscellaneous</key>
+	  <value>NetBackup</value>
+	</hash-entry>
+      </hashtable>
+    </description>
+  </section>
+  <section>
+    <title>Tools</title>
+    <description>
+      <hashtable>
+	<hash-entry>
+	  <key>Debuggers</key>
+	  <value>GDB</value>
+	  <value>WinDbg</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Analysis</key>
+	  <value>Valgrind</value>
+	  <value>Purify</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>IDE</key>
+	  <value>NetBeans</value>
+	  <value>Emacs</value>
+	  <value>Visual Studio</value>
+	  <value>Eclipse</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Miscellaneous</key>
+	  <value>LaTex</value>
+	  <value>CScope</value>
+	  <value>XML</value>
+	  <value>FOP</value>
+	</hash-entry>
+      </hashtable>
+    </description>
+  </section>
+  <section>
+    <title>APIs/Frameworks</title>
+    <description>
+      <vlist>
+	<entry>VMware Disk Development Kit(VDDK)</entry>
+	<entry>VMware Virtual Infrastructure SDK</entry>
+	<entry>Xen API</entry>
+	<entry>Linux Kernel Development</entry>
+	<entry>GTK</entry>
+	<entry>QT</entry>
+      </vlist>
+    </description>
+  </section>
+  <section>
+    <title>Experience</title>
+    <description>
+      <experiences>
+	<company name="Symantec India">
+	  <designation name="Software Engineer" from="2011-07" />
+	  <designation name="Associate Software Engineer" from="2010-01" to="2011-06" />
+	</company>
+	<company name="MotorExchange Inc.">
+	  <designation name="Web Developer" from="2009-07" to="2009-12" />
+	</company>
+	<company name="Three Pixels">
+	  <designation name="Co-Founder" from="2009-02" to="2009-06" />
+	</company>
+      </experiences>
+    </description>
+  </section>
+  <section>
+    <title>Education background</title>
+    <description>
+      <qualifications>
+	<qualification name="Computer Engineering" school="University of Mumbai" 
+		       year="2009" comment="Percentage 61%" />
+	<qualification name="H.S.C." school="Maharashtra Board" year="2005" comment="Percentage 84%" />
+	<qualification name="S.S.C." school="Maharashtra Board" year="2003" comment="Percentage 78%" />
+      </qualifications>	
+    </description>
+  </section>
+  <projects>
+    <company name="Symantec" from="2010-01">
+      <project name="******** for NetBackup Unix" from="2011-06">
+	<description>Upcoming feature in NetBackup.</description>
+	<role>
+	  Was responsible for design and development of Linux kernel module and its interface
+	  with the user space. Took the project from being a prototype to being an integrated
+	  feature in NetBackup.
+	</role>
+      </project>
+      <project name="Facelift for NetBackup Virtualization" from="2011-01" to="2011-06">
+	<description>Improvement in the user interface of NetBackup Virtualization features.</description>
+	<role>
+	  This project was an improvement of the existing user interface. This involved interaction
+	  with various stakeholders in different teams to make sure we have covered all their requirements
+	  as this was a base feature over which all the new virtualization features were dependent.
+	</role>
+      </project>
+      <project name="Ext4 support for NetBackup Virtualization" from="2010-11" to="2011-01">
+	<description>Supporting Ext4 for NetBackup Virtualization.</description>
+	<role>
+	  This involved addition of support for Ext4 to Veritas Mapping Services. NetBackup
+	  consumes to provide Single File Restore from Virtual Machine Backups. Was involved in
+	  analysis, design and development of the complete project.
+	</role>
+      </project>
+      <project name="Ext2/3 support for NetBackup Virtualization" from="2010-01" to="2010-11">
+	<description>Supporting Ext2/3 for NetBackup Virtualization.</description>
+	<role>
+	  This involved addition of support for Ext2/3 to Veritas Mapping Services. NetBackup
+	  consumes to provide Single File Restore from Virtual Machine Backups. Was involved in bug
+	  fixing during the end of this project. Was involved in development of quiescence utility for
+	  Linux virtual machines running on VMware environment.
+	</role>
+      </project>
+    </company>
+    <company name="Motor Exchange" from="2009-08" to="2009-12">
+      <project name="CartradeIndia.com" from="2009-08" to="2009-12">
+	<description>Maintenance of cartradeindia.com website.</description>
+	<role>
+	  Job involved maintenance and enhancement of the site. Required use of PHP, Java for
+	  developing web scrappers.
+	</role>
+      </project>
+    </company>
+    <company name="Three Pixels" from="2009-02" to="2009-06">
+      <project name="ConnectWithHimalaya.com" from="2009-02" to="2009-05">
+	<description>Developed Website for ConnectWithHimalaya.com.</description>
+	<role>
+	  Connect With Himalaya was one of our very first projects. It was a very graphic centric
+	  project. We were required to provide the client with a admin section which enabled him to
+	  customized the whole site. User could manage each and every page from the admin section.
+	</role>
+      </project>
+      <project name="Sheet Cutting Suite" from="2009-05" to="2009-06">
+	<description>
+	  Glass cutting suite which keeps track of inventory and helps with calculations.
+	</description>
+	<role>
+	  This project used Hibernate &amp; MySql for back end and used Java Swings for front end.
+	  It also uses a unique algorithm which was created in house for enabling multiple sheets 
+	  to be cut from a single sheet for glass with minimum waste and minimum cuts.
+	</role>
+      </project>
+    </company>
+  </projects>
+  <section>
+    <title>Achievements in Symantec</title>
+    <description>
+      <nlist>
+	<entry>
+	  Got Level 4 Applause Award for exceptional performance with Ext2/3/4 support.
+	</entry>
+	<entry>
+	  Got Level 3 Applause Award for exceptional performance in research and development of Linux kernel module.
+	</entry>
+	<entry>
+	  Got Level 3 Applause Award for exceptional performance while working in VxMS.
+	</entry>
+	<entry>
+	  Got Level 1 Applause Award for proactively helping CFT with crucial customer escalation.
+	</entry>
+	<entry>
+	  Got Level 2 Applause Award for helping gear up newly recruited team members.
+	</entry>
+      </nlist>
+    </description>
+  </section>
+</resume>
