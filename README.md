@@ -1,4 +1,4 @@
 fop-xml-resume
 ==============
 
-Create resume using XML and FOP
+Create PDF resume using XML and FOP
