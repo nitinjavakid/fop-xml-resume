@@ -118,6 +118,10 @@ Configuration values
     <xsl:apply-templates />
   </xsl:template>
 
+  <xsl:template match="technologies">
+    <xsl:apply-templates />
+  </xsl:template>
+
   <xsl:template match="hlist">
     <xsl:for-each select="entry">
       <xsl:value-of select="." />
@@ -319,6 +323,14 @@ Configuration values
 	<fo:block>
 	  <fo:inline font-weight="bold">Role: </fo:inline><xsl:value-of select="role" />
 	</fo:block>
+        <xsl:choose>
+	<xsl:when test="technologies">
+	<fo:block>
+	  <fo:inline font-weight="bold">Technologies used: </fo:inline>
+	  <xsl:apply-templates select="technologies" />
+	</fo:block>
+	</xsl:when>
+        </xsl:choose>
       </fo:table-cell>
     </fo:table-row>
   </xsl:template>
