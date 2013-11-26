@@ -9,7 +9,7 @@
   <section>
     <title>Current Role Description</title>
     <description>
-      Currently working as Software Engineer(Development) at Symantec India.
+      Currently working as Senior Software Engineer(Development) at Symantec India.
     </description>
   </section>
   <section>
@@ -27,48 +27,48 @@
     <title>Technology Experience</title>
     <description>
       <hlist>
-    <entry>File Systems</entry>
-    <entry>Storage (I/O) stack</entry>
-    <entry>Virtualization (VMware, Hyper-V and Xen)</entry>
-    <entry>Volume Shadow Copy Service (VSS)</entry>
-    <entry>Linux Kernel Development</entry>
+        <entry>File Systems</entry>
+        <entry>Storage (I/O) stack</entry>
+        <entry>Virtualization (VMware, Hyper-V and Xen)</entry>
+        <entry>Volume Shadow Copy Service (VSS)</entry>
+        <entry>Linux Kernel Development</entry>
       </hlist>
     </description>
   </section>
   <section>
     <title>Software</title>
     <description>
-      <hashtable first-width="6cm">
-    <hash-entry>
-      <key>Operation Systems</key>
-      <value>Linux</value>
-      <value>Windows</value>
-    </hash-entry>
-    <hash-entry>
-      <key>File Systems</key>
-      <value>Ext2/3/4</value>
-      <value>NTFS</value>
-    </hash-entry>
-    <hash-entry>
-      <key>Volume Managers</key>
-      <value>LVM</value>
-      <value>LDM</value>
-    </hash-entry>
-    <hash-entry>
-      <key>Programming Languages</key>
-      <value>C/C++</value>
-      <value>Java(Core only)</value>
-    </hash-entry>
-    <hash-entry>
-      <key>Hypervisors</key>
-      <value>VMware</value>
-      <value>Hyper-V</value>
-      <value>Xen</value>
-    </hash-entry>
-    <hash-entry>
-      <key>Miscellaneous</key>
-      <value>NetBackup</value>
-    </hash-entry>
+      <hashtable first-width="6cm"> 
+	<hash-entry>
+	  <key>Operation Systems</key>
+	  <value>Linux</value>
+	  <value>Windows</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>File Systems</key>
+	  <value>Ext2/3/4</value>
+	  <value>NTFS</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Volume Managers</key>
+	  <value>LVM</value>
+	  <value>LDM</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Programming Languages</key>
+	  <value>C/C++</value>
+	  <value>Java(Core only)</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Hypervisors</key>
+	  <value>VMware</value>
+	  <value>Hyper-V</value>
+	  <value>Xen</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Miscellaneous</key>
+	  <value>NetBackup</value>
+	</hash-entry>
       </hashtable>
     </description>
   </section>
@@ -76,30 +76,30 @@
     <title>Tools</title>
     <description>
       <hashtable>
-    <hash-entry>
-      <key>Debuggers</key>
-      <value>GDB</value>
-      <value>WinDbg</value>
-    </hash-entry>
-    <hash-entry>
-      <key>Analysis</key>
-      <value>Valgrind</value>
-      <value>Purify</value>
-    </hash-entry>
-    <hash-entry>
-      <key>IDE</key>
-      <value>NetBeans</value>
-      <value>Emacs</value>
-      <value>Visual Studio</value>
-      <value>Eclipse</value>
-    </hash-entry>
-    <hash-entry>
-      <key>Miscellaneous</key>
-      <value>LaTex</value>
-      <value>CScope</value>
-      <value>XML</value>
-      <value>FOP</value>
-    </hash-entry>
+	<hash-entry>
+	  <key>Debuggers</key>
+	  <value>GDB</value>
+	  <value>WinDbg</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Analysis</key>
+	  <value>Valgrind</value>
+	  <value>Purify</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>IDE</key>
+	  <value>NetBeans</value>
+	  <value>Emacs</value>
+	  <value>Visual Studio</value>
+	  <value>Eclipse</value>
+	</hash-entry>
+	<hash-entry>
+	  <key>Miscellaneous</key>
+	  <value>LaTex</value>
+	  <value>CScope</value>
+	  <value>XML</value>
+	  <value>FOP</value>
+	</hash-entry>
       </hashtable>
     </description>
   </section>
@@ -124,6 +124,7 @@
     <description>
       <experiences>
         <company name="Symantec India">
+          <designation name="Senior Software Engineer" from="2013-10" />
           <designation name="Software Engineer" from="2011-07" />
           <designation name="Associate Software Engineer" from="2010-01" to="2011-06" />
         </company>
@@ -141,7 +142,7 @@
     <description>
       <qualifications>
         <qualification name="Computer Engineering" school="University of Mumbai" 
-               year="2009" comment="Percentage 61%" />
+		       year="2009" comment="Percentage 61%" />
         <qualification name="H.S.C." school="Maharashtra Board" year="2005" comment="Percentage 84%" />
         <qualification name="S.S.C." school="Maharashtra Board" year="2003" comment="Percentage 78%" />
       </qualifications>    
@@ -149,24 +150,45 @@
   </section>
   <projects>
     <company name="Symantec" from="2010-01">
-      <project name="Replication Director for NetBackup" from="2012-01">
-        <description>Upcoming feature in NetBackup.</description>
+      <project name="Block Device support in Replication Director for NetBackup" from="2012-07">
+        <description>Provided support for NetApp and EMC SAN devices in Replication Director.</description>
         <role>
-          Was responsible for design and development of new feature for Replication Director 
-          user story for NetBackup.
+	  Contributed as an individual contributor responsible for design of device selection logic and bug fixes.
+	  Was also responsible for fixing performance related issues with storage vendor implementation.
         </role>
         <technologies>
-            <hlist>
-                <entry>C++</entry>
-                <entry>ACE</entry>
-                <entry>Boost</entry>
-                <entry>Linux</entry>
-                <entry>CxxTest</entry>
-                <entry>XML</entry>
-                <entry>Gdb</entry>
-                <entry>Valgrind</entry>
-                <entry>Purify</entry>
-            </hlist>
+          <hlist>
+            <entry>C++</entry>
+            <entry>ACE</entry>
+            <entry>Boost</entry>
+            <entry>Linux</entry>
+            <entry>CxxTest</entry>
+            <entry>XML</entry>
+            <entry>Gdb</entry>
+            <entry>Valgrind</entry>
+            <entry>Purify</entry>
+            <entry>SMI-S</entry>
+          </hlist>
+        </technologies>
+      </project>
+      <project name="Policy validation of Replication Director for NetBackup" from="2012-01" to="2012-07">
+        <description>Validates the underlying storage stack with the requirements of user as configured in NetBackup policy.</description>
+        <role>
+          Was responsible for design and development of this feature. Interacted with storage
+	  vendor for various changes.
+        </role>
+        <technologies>
+          <hlist>
+            <entry>C++</entry>
+            <entry>ACE</entry>
+            <entry>Boost</entry>
+            <entry>Linux</entry>
+            <entry>CxxTest</entry>
+            <entry>XML</entry>
+            <entry>Gdb</entry>
+            <entry>Valgrind</entry>
+            <entry>Purify</entry>
+          </hlist>
         </technologies>
       </project>
       <project name="******** for NetBackup Unix" from="2011-06" to="2011-12">
@@ -177,11 +199,11 @@
           feature in NetBackup.
         </role>
         <technologies>
-            <hlist>
-                <entry>C</entry>
-                <entry>Kernel develoment</entry>
-                <entry>Linux</entry>
-            </hlist>
+          <hlist>
+            <entry>C</entry>
+            <entry>Kernel develoment</entry>
+            <entry>Linux</entry>
+          </hlist>
         </technologies>
       </project>
       <project name="Facelift for NetBackup Virtualization" from="2011-01" to="2011-06">
@@ -192,10 +214,10 @@
           as this was a base feature over which all the new virtualization features were dependent.
         </role>
         <technologies>
-            <hlist>
-                <entry>C++</entry>
-                <entry>Java</entry>
-            </hlist>
+          <hlist>
+            <entry>C++</entry>
+            <entry>Java</entry>
+          </hlist>
         </technologies>
       </project>
       <project name="Ext4 support for NetBackup Virtualization" from="2010-11" to="2011-01">
@@ -206,11 +228,11 @@
           analysis, design and development of the complete project.
         </role>
         <technologies>
-            <hlist>
-                <entry>C++</entry>
-                <entry>VMware</entry>
-                <entry>Hyper-V</entry>
-            </hlist>
+          <hlist>
+            <entry>C++</entry>
+            <entry>VMware</entry>
+            <entry>Hyper-V</entry>
+          </hlist>
         </technologies>
       </project>
       <project name="Ext2/3 support for NetBackup Virtualization" from="2010-01" to="2010-11">
@@ -222,11 +244,11 @@
           Linux virtual machines running on VMware environment.
         </role>
         <technologies>
-            <hlist>
-                <entry>C++</entry>
-                <entry>VMware</entry>
-                <entry>Hyper-V</entry>
-            </hlist>
+          <hlist>
+            <entry>C++</entry>
+            <entry>VMware</entry>
+            <entry>Hyper-V</entry>
+          </hlist>
         </technologies>
       </project>
     </company>
@@ -238,10 +260,10 @@
           developing web scrappers.
         </role>
         <technologies>
-            <hlist>
-                <entry>PHP</entry>
-                <entry>MySQL</entry>
-            </hlist>
+          <hlist>
+            <entry>PHP</entry>
+            <entry>MySQL</entry>
+          </hlist>
         </technologies>
       </project>
     </company>
@@ -254,11 +276,11 @@
           customized the whole site. User could manage each and every page from the admin section.
         </role>
         <technologies>
-            <hlist>
-                <entry>PHP</entry>
-                <entry>Javascript</entry>
-                <entry>MySQL</entry>
-            </hlist>
+          <hlist>
+            <entry>PHP</entry>
+            <entry>Javascript</entry>
+            <entry>MySQL</entry>
+          </hlist>
         </technologies>
       </project>
       <project name="Sheet Cutting Suite" from="2009-05" to="2009-06">
@@ -271,11 +293,11 @@
           to be cut from a single sheet for glass with minimum waste and minimum cuts.
         </role>
         <technologies>
-            <hlist>
-                <entry>Java</entry>
-                <entry>Hibernate</entry>
-                <entry>MySQL</entry>
-            </hlist>
+          <hlist>
+            <entry>Java</entry>
+            <entry>Hibernate</entry>
+            <entry>MySQL</entry>
+          </hlist>
         </technologies>
       </project>
     </company>
@@ -283,34 +305,34 @@
   <section>
     <title>Publications/Patents</title>
     <description>
-        <nlist>
-            <entry>Two patents pending related to storage</entry>
-            <entry>Optimized Snapshot Device Selection in Target-based Arrays (IP.com)</entry>
-        </nlist>
+      <nlist>
+        <entry>Two patents pending related to storage</entry>
+        <entry>Optimized Snapshot Device Selection in Target-based Arrays (IP.com)</entry>
+      </nlist>
     </description>
   </section>
   <section>
     <title>Achievements in Symantec</title>
     <description>
       <nlist>
-    <entry>
-      Got Level 4 Applause Award for exceptional performance with Ext2/3/4 support.
-    </entry>
-    <entry>
-      Got Level 3 Applause Award for exceptional performance in research and development of Linux kernel module.
-    </entry>
-    <entry>
-      Got Level 3 Applause Award for exceptional performance while working in VxMS.
-    </entry>
-    <entry>
-      Got Level 1 Applause Award for proactively helping CFT with crucial customer escalation.
-    </entry>
-    <entry>
-      Got Level 2 Applause Award for helping gear up newly recruited team members.
-    </entry>
-    <entry>
-      Got Standing Ovation Award for Outstanding contribution in 2011-2012.
-    </entry>
+	<entry>
+	  Got Level 4 Applause Award for exceptional performance with Ext2/3/4 support.
+	</entry>
+	<entry>
+	  Got Level 3 Applause Award for exceptional performance in research and development of Linux kernel module.
+	</entry>
+	<entry>
+	  Got Level 3 Applause Award for exceptional performance while working in VxMS.
+	</entry>
+	<entry>
+	  Got Level 1 Applause Award for proactively helping CFT with crucial customer escalation.
+	</entry>
+	<entry>
+	  Got Level 2 Applause Award for helping gear up newly recruited team members.
+	</entry>
+	<entry>
+	  Got Standing Ovation Award for Outstanding contribution in 2011-2012.
+	</entry>
       </nlist>
     </description>
   </section>

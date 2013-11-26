@@ -1,5 +1,4 @@
 <?xml version="1.0" ?>
-<!DOCTYPE root SYSTEM "/media/Data_Disk/schemas/fo.dtd" >
 <xsl:stylesheet version="1.0" xmlns:fo="http://www.w3.org/1999/XSL/Format" 
 		xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 		xmlns:dt="http://exslt.org/dates-and-times"
