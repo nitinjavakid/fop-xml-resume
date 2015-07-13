@@ -120,7 +120,7 @@
       <experiences>
         <company name="Symantec India">
           <designation name="Senior Software Engineer" from="2013-10" />
-          <designation name="Software Engineer" from="2011-07" />
+          <designation name="Software Engineer" from="2011-07" to="2013-10"/>
           <designation name="Associate Software Engineer" from="2010-01" to="2011-06" />
         </company>
         <company name="MotorExchange Inc.">
