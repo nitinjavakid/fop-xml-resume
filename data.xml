@@ -9,13 +9,13 @@
   <section>
     <title>Current Role Description</title>
     <description>
-      Currently working as Senior Software Engineer(Development) at Symantec India.
+      Currently working as Consultant(Development) at Sureline Systems India.
     </description>
   </section>
   <section>
     <title>Skill/Experience Summary</title>
     <description>
-        During more than five years in Symantec, I have worked on components like Veritas Mapping Services, Snapshot Client and Core of the Industry leading Backup Software NetBackup. The work that I have done is primarily based on Storage and Virtualization Domain. Along with the regular development work, I have been engaged in various customer facing activities as well as research and prototype projects. I have delivered exceptional results in all the projects assigned to me.
+        During more than five years in Symantec, I have worked on components like Veritas Mapping Services, Snapshot Client and Core of the Industry leading Backup Software NetBackup. The work that I have done is primarily based on Storage and Virtualization Domain. Along with the regular development work, I have been engaged in various customer facing activities as well as research and prototype projects. I have delivered exceptional results in all the projects assigned to me. After Symantec, I have been working as a Consultant for Sureline Systems where we develop migration tools for cloud vendors.
     </description>
   </section>
   <section>
@@ -106,8 +106,6 @@
         <entry>VMware Virtual Infrastructure SDK</entry>
         <entry>Xen API</entry>
         <entry>Linux Kernel Development</entry>
-        <entry>GTK</entry>
-        <entry>QT</entry>
         <entry>Boost</entry>
         <entry>ACE</entry>
         <entry>CxxTest</entry>
@@ -118,8 +116,12 @@
     <title>Experience</title>
     <description>
       <experiences>
+        <company name="Sureline Systems">
+          <designation name="Consultant" from="2015-08" />
+        </company>
         <company name="Symantec India">
-          <designation name="Senior Software Engineer" from="2013-10" />
+          <designation name="Principal Software Engineer" from="2015-06" to="2015-08" />
+          <designation name="Senior Software Engineer" from="2013-10" to="2015-06"/>
           <designation name="Software Engineer" from="2011-07" to="2013-10"/>
           <designation name="Associate Software Engineer" from="2010-01" to="2011-06" />
         </company>
@@ -139,12 +141,32 @@
         <qualification name="Computer Engineering" school="University of Mumbai" year="2009" comment="Percentage 61%" />
         <qualification name="H.S.C." school="Maharashtra Board" year="2005" comment="Percentage 84%" />
         <qualification name="S.S.C." school="Maharashtra Board" year="2003" comment="Percentage 78%" />
-      </qualifications>    
+      </qualifications>
     </description>
   </section>
   <projects>
-    <company name="Symantec" from="2010-01">
-      <project name="Project Marco" from="2014-04">
+    <company name="Sureline Systems" from="2015-08">
+      <project name="SUREedge Migrator" from="2015-08">
+        <description>
+          Implemented migration solution for various cloud platforms like Google Cloud, Amazon EC2, Windstream, CenturyLink.
+        </description>
+        <role>
+          Part of a team of four individuals that developed migration solutions for various cloud platforms. Was the development lead for Amazon EC2 and CenturyLink solution.
+        </role>
+        <technologies>
+          <hlist>
+            <entry>C++</entry>
+            <entry>Java</entry>
+            <entry>Perl</entry>
+            <entry>Anjulas JS</entry>
+            <entry>Google Cloud API</entry>
+            <entry>Amazon EC2 API</entry>
+          </hlist>
+        </technologies>
+      </project>
+    </company>
+    <company name="Symantec" from="2010-01" to="2015-07">
+      <project name="Project Marco" from="2014-04" to="2015-07">
         <description>
           Created system for Copy Data Management usercases using NetBackup injest.
         </description>
@@ -320,6 +342,8 @@
       <nlist>
         <entry>US 8,762,341 : Efficiently configuring multiple backup data policies with information specifying data to backup.</entry>
         <entry>US 8,990,164 : Systems and methods for performing incremental backups.</entry>
+        <entry>One more patent pending with Symantec</entry>
+        <entry>One patent pending with Sureline Systems</entry>
         <entry>Optimized Snapshot Device Selection in Target-based Arrays (IP.com)</entry>
       </nlist>
     </description>
