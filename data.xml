@@ -4,18 +4,17 @@
   <lastname>Anand</lastname>
   <address>C-702, Urban Nirvana, S.No. 57/4, Kharadi, Pune-411014.</address>
   <phone>+919860420747</phone>
-  <website>http://an.andnit.in/</website>
   <email>nitinjavakid@gmail.com</email>
   <section>
     <title>Current Role Description</title>
     <description>
-      Currently working as Consultant(Development) at Sureline Systems India.
+      Currently working as Consultant(Development) at Technology Nexus AB.
     </description>
   </section>
   <section>
     <title>Skill/Experience Summary</title>
     <description>
-        During more than five years in Symantec, I have worked on components like Veritas Mapping Services, Snapshot Client and Core of the Industry leading Backup Software NetBackup. The work that I have done is primarily based on Storage and Virtualization Domain. Along with the regular development work, I have been engaged in various customer facing activities as well as research and prototype projects. I have delivered exceptional results in all the projects assigned to me. After Symantec, I have been working as a Consultant for Sureline Systems where we develop migration tools for cloud vendors.
+        During more than five years in Symantec, I have worked on components like Veritas Mapping Services, Snapshot Client and Core of the Industry leading Backup Software NetBackup. The work that I have done is primarily based on Storage and Virtualization Domain. Along with the regular development work, I have been engaged in various customer facing activities as well as research and prototype projects. I have delivered exceptional results in all the projects assigned to me. After Symantec, I worked as a Consultant for Sureline Systems where we developed migration tools for various cloud vendors. My current work deals with PKI.
     </description>
   </section>
   <section>
@@ -27,6 +26,7 @@
         <entry>Virtualization (VMware, Hyper-V and Xen)</entry>
         <entry>Volume Shadow Copy Service (VSS)</entry>
         <entry>Linux Kernel Development</entry>
+        <entry>PKI</entry>
       </hlist>
     </description>
   </section>
@@ -63,6 +63,7 @@
         <hash-entry>
           <key>Miscellaneous</key>
           <value>NetBackup</value>
+          <value>Docker</value>
         </hash-entry>
       </hashtable>
     </description>
@@ -116,8 +117,11 @@
     <title>Experience</title>
     <description>
       <experiences>
+        <company name="Technology Nexus AB">
+          <designation name="Consultant" from="2016-03" />
+        </company>
         <company name="Sureline Systems">
-          <designation name="Consultant" from="2015-08" />
+          <designation name="Consultant" from="2015-08" to="2016-03"/>
         </company>
         <company name="Symantec India">
           <designation name="Principal Software Engineer" from="2015-06" to="2015-08" />
@@ -145,8 +149,66 @@
     </description>
   </section>
   <projects>
-    <company name="Sureline Systems" from="2015-08">
-      <project name="SUREedge Migrator" from="2015-08">
+    <company name="Technology Nexus AB" from="2016-03">
+      <project name="Hybrid Access Gateway" from="2017-01">
+        <description>
+          Designed and implemented new features in Hybrid Access Gateway project. This included Nexus Go support, SAML unsolicited response support. Responsible for enhancing performance of Access Point component.
+        </description>
+        <role>
+          Designed and implemented new features
+        </role>
+        <technologies>
+          <hlist>
+            <entry>C++</entry>
+            <entry>Java</entry>
+          </hlist>
+        </technologies>
+      </project>
+      <project name="Access client for OSX" from="2016-11" to="2017-01">
+        <description>
+          Designed and implemented network extension and application for a VPN solution that is used as client for Hybrid Access Gateway.
+        </description>
+        <role>
+          Design and implementation
+        </role>
+        <technologies>
+          <hlist>
+            <entry>Swift</entry>
+            <entry>C++</entry>
+          </hlist>
+        </technologies>
+      </project>
+      <project name="EID2 implementation" from="2016-05" to="2016-11">
+        <description>
+          Designed and implemented signing and support service based on EID2 specifications.
+        </description>
+        <role>
+          Design and implementation
+        </role>
+        <technologies>
+          <hlist>
+            <entry>Java</entry>
+            <entry>Swagger</entry>
+            <entry>Jersey</entry>
+          </hlist>
+        </technologies>
+      </project>
+      <project name="Windows Mobile SDK for TruID" from="2016-03" to="2016-05">
+        <description>
+          Designed and implementated SDK for TruID on Windows platform.
+        </description>
+        <role>
+          Design and implementation
+        </role>
+        <technologies>
+          <hlist>
+            <entry>C#</entry>
+          </hlist>
+        </technologies>
+      </project>
+    </company>
+    <company name="Sureline Systems" from="2015-08" to="2016-03">
+      <project name="SUREedge Migrator" from="2015-08" to="2016-03">
         <description>
           Implemented migration solution for various cloud platforms like Google Cloud, Amazon EC2, Windstream, CenturyLink.
         </description>
@@ -349,7 +411,13 @@
     </description>
   </section>
   <section>
-    <title>Achievements in Symantec</title>
+    <title>Opensource contributions</title>
+    <description>
+       https://github.com/nitinjavakid?tab=repositories
+    </description>
+  </section>
+  <section>
+    <title>Achievements</title>
     <description>
       <nlist>
         <entry>
