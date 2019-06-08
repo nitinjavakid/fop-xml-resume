@@ -41,8 +41,24 @@ Configuration values
 	              <xsl:value-of select="address" />
 	            </fo:block>
 	            <fo:block text-align="right">
-	              <xsl:value-of select="phone" />  <xsl:text> (</xsl:text>
-	              <fo:basic-link external-destination="http://an.andnit.in/"><xsl:value-of select="website" /></fo:basic-link><xsl:text>) </xsl:text>
+	              <xsl:value-of select="phone" />
+                      <xsl:choose>
+                        <xsl:when test="website">
+                          <xsl:text> (</xsl:text>
+	                  <fo:basic-link>
+                            <xsl:attribute name="external-destination">
+                              <xsl:text>url(</xsl:text>
+                              <xsl:value-of select="website/@url"/>
+                              <xsl:text>)</xsl:text>
+                            </xsl:attribute>
+                            <xsl:value-of select="website" />
+                          </fo:basic-link>
+                          <xsl:text>) </xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                          <xsl:text> </xsl:text>
+                        </xsl:otherwise>
+                      </xsl:choose>
 	              <xsl:value-of select="email" />
 	            </fo:block>
 		  </fo:table-cell>
@@ -291,45 +307,53 @@ Configuration values
   </xsl:template>
 
   <xsl:template match="project">
-    <fo:table-row font-weight="bold">
-      <fo:table-cell  margin-left="0pt">
-	<fo:block>
-	  <xsl:value-of select="@name" />
-	</fo:block>
-      </fo:table-cell>
-      <fo:table-cell width="4cm">
-	<fo:block text-align="right">
-	  <xsl:value-of select="dt:month-abbreviation(@from)" />
-	  <xsl:text> </xsl:text><xsl:value-of select="dt:year(@from)" />	  
-	  <xsl:text> - </xsl:text>
-	  <xsl:choose>
-	    <xsl:when test="@to">
-	      <xsl:value-of select="dt:month-abbreviation(@to)" />
-	      <xsl:text> </xsl:text><xsl:value-of select="dt:year(@to)" />
-	    </xsl:when>
-	    <xsl:otherwise>
-	      <xsl:text>Till date</xsl:text>
-	    </xsl:otherwise>
-	  </xsl:choose>
-	</fo:block>
-    </fo:table-cell>
-    </fo:table-row>
-    <fo:table-row>
-      <fo:table-cell padding-after="15pt" number-columns-spanned="2"  margin-left="0pt">
-	<fo:block>
-	  <fo:inline font-weight="bold">Description: </fo:inline><xsl:value-of select="description" />
-	</fo:block>
-	<fo:block>
-	  <fo:inline font-weight="bold">Role: </fo:inline><xsl:value-of select="role" />
-	</fo:block>
-        <xsl:choose>
-	<xsl:when test="technologies">
-	<fo:block>
-	  <fo:inline font-weight="bold">Technologies used: </fo:inline>
-	  <xsl:apply-templates select="technologies" />
-	</fo:block>
-	</xsl:when>
-        </xsl:choose>
+    <fo:table-row keep-together.within-page="always">
+      <fo:table-cell>
+        <fo:table>
+          <fo:table-body>
+            <fo:table-row font-weight="bold">
+              <fo:table-cell  margin-left="0pt">
+	        <fo:block>
+	          <xsl:value-of select="@name" />
+	        </fo:block>
+              </fo:table-cell>
+              <fo:table-cell width="4cm">
+	        <fo:block text-align="right">
+	          <xsl:value-of select="dt:month-abbreviation(@from)" />
+	          <xsl:text> </xsl:text><xsl:value-of select="dt:year(@from)" />	  
+	          <xsl:text> - </xsl:text>
+	          <xsl:choose>
+	            <xsl:when test="@to">
+	              <xsl:value-of select="dt:month-abbreviation(@to)" />
+	              <xsl:text> </xsl:text><xsl:value-of select="dt:year(@to)" />
+	            </xsl:when>
+	            <xsl:otherwise>
+	              <xsl:text>Till date</xsl:text>
+	            </xsl:otherwise>
+	          </xsl:choose>
+	        </fo:block>
+              </fo:table-cell>
+            </fo:table-row>
+            <fo:table-row>
+              <fo:table-cell padding-after="15pt" number-columns-spanned="2"  margin-left="0pt">
+	        <fo:block>
+	          <fo:inline font-weight="bold">Description: </fo:inline><xsl:value-of select="description" />
+	        </fo:block>
+	        <fo:block>
+	          <fo:inline font-weight="bold">Role: </fo:inline><xsl:value-of select="role" />
+	        </fo:block>
+                <xsl:choose>
+	          <xsl:when test="technologies">
+	            <fo:block>
+	              <fo:inline font-weight="bold">Technologies used: </fo:inline>
+	              <xsl:apply-templates select="technologies" />
+	            </fo:block>
+	          </xsl:when>
+                </xsl:choose>
+              </fo:table-cell>
+            </fo:table-row>
+          </fo:table-body>
+        </fo:table>
       </fo:table-cell>
     </fo:table-row>
   </xsl:template>
