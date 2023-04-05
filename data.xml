@@ -8,13 +8,18 @@
   <section>
     <title>Current Role Description</title>
     <description>
-      Currently working as senior software developer at Technology Nexus AB.
+      Currently working as Member of Technical Staff at Macrometa.
     </description>
   </section>
   <section>
     <title>Skill/Experience Summary</title>
     <description>
-        During more than five years in Symantec, I have worked on components like Veritas Mapping Services, Snapshot Client and Core of the Industry leading Backup Software NetBackup. The work that I have done is primarily based on Storage and Virtualization Domain. Along with the regular development work, I have been engaged in various customer facing activities as well as research and prototype projects. I have delivered exceptional results in all the projects assigned to me. After Symantec, I worked as a Consultant for Sureline Systems where we developed migration tools for various cloud vendors. My current work deals with public key infrastructure.
+        The experience includes designing and implementing scale-out systems for high user concurrency,
+        vulnerability management support for Linux, MacOS network extensions for VPN, signing services,
+        cloud platform migration, and Linux kernel module development. The work done demonstrates a deep
+        understanding of system architecture, network infrastructure, and critical components that are
+        essential for developing robust and efficient solutions. Have delivered exceptional results in
+        all the projects assigned.
     </description>
   </section>
   <section>
@@ -23,9 +28,7 @@
       <hlist>
         <entry>File Systems</entry>
         <entry>Storage (I/O) stack</entry>
-        <entry>Virtualization (VMware, Hyper-V and Xen)</entry>
-        <entry>Volume Shadow Copy Service (VSS)</entry>
-        <entry>Linux Kernel Development</entry>
+        <entry>Virtualization</entry>
         <entry>Public Key Infrastructure</entry>
       </hlist>
     </description>
@@ -35,66 +38,14 @@
     <description>
       <hashtable first-width="6cm"> 
         <hash-entry>
-          <key>Operation Systems</key>
-          <value>Linux</value>
-          <value>Windows</value>
-        </hash-entry>
-        <hash-entry>
-          <key>File Systems</key>
-          <value>Ext2/3/4</value>
-          <value>NTFS</value>
-        </hash-entry>
-        <hash-entry>
-          <key>Volume Managers</key>
-          <value>LVM</value>
-          <value>LDM</value>
-        </hash-entry>
-        <hash-entry>
           <key>Programming Languages</key>
           <value>C/C++</value>
           <value>Java</value>
         </hash-entry>
         <hash-entry>
-          <key>Hypervisors</key>
-          <value>VMware</value>
-          <value>Hyper-V</value>
-          <value>Xen</value>
-        </hash-entry>
-        <hash-entry>
-          <key>Miscellaneous</key>
-          <value>NetBackup</value>
-          <value>Docker</value>
-        </hash-entry>
-      </hashtable>
-    </description>
-  </section>
-  <section>
-    <title>Tools</title>
-    <description>
-      <hashtable>
-        <hash-entry>
-          <key>Debuggers</key>
-          <value>GDB</value>
-          <value>WinDbg</value>
-        </hash-entry>
-        <hash-entry>
-          <key>Analysis</key>
-          <value>Valgrind</value>
-          <value>Purify</value>
-        </hash-entry>
-        <hash-entry>
-          <key>IDE</key>
-          <value>NetBeans</value>
-          <value>Emacs</value>
-          <value>Visual Studio</value>
-          <value>Eclipse</value>
-        </hash-entry>
-        <hash-entry>
-          <key>Miscellaneous</key>
-          <value>LaTex</value>
-          <value>CScope</value>
-          <value>XML</value>
-          <value>FOP</value>
+          <key>Operation Systems</key>
+          <value>Linux</value>
+          <value>Windows</value>
         </hash-entry>
       </hashtable>
     </description>
@@ -102,24 +53,27 @@
   <section>
     <title>APIs/Frameworks</title>
     <description>
-      <vlist>
+      <hlist>
         <entry>VMware Disk Development Kit(VDDK)</entry>
         <entry>VMware Virtual Infrastructure SDK</entry>
-        <entry>Xen API</entry>
-        <entry>Linux Kernel Development</entry>
         <entry>Boost</entry>
-        <entry>ACE</entry>
-        <entry>CxxTest</entry>
-        <entry>Spring</entry>
-      </vlist>
+        <entry>Drogon</entry>
+        <entry>GTest</entry>
+      </hlist>
     </description>
   </section>
   <section>
     <title>Experience</title>
     <description>
       <experiences>
+        <company name="Macrometa">
+          <designation name="Member of Techical Staff" from="2022-02" />
+        </company>
+        <company name="Crowdstrike">
+          <designation name="Senior Software Engineer" from="2020-01" to="2021-06"/>
+        </company>
         <company name="Technology Nexus AB">
-          <designation name="Senior Software Developer" from="2016-03" />
+          <designation name="Senior Software Developer" from="2016-03" to="2020-01"/>
         </company>
         <company name="Sureline Systems">
           <designation name="Consultant" from="2015-08" to="2016-03"/>
@@ -130,30 +84,52 @@
           <designation name="Software Engineer" from="2011-07" to="2013-10"/>
           <designation name="Associate Software Engineer" from="2010-01" to="2011-06" />
         </company>
-        <company name="MotorExchange Inc.">
-          <designation name="Web Developer" from="2009-07" to="2009-12" />
-        </company>
-        <company name="Three Pixels">
-          <designation name="Co-Founder" from="2009-02" to="2009-06" />
-        </company>
       </experiences>
     </description>
   </section>
-  <section>
-    <title>Education background</title>
-    <description>
-      <qualifications>
-        <qualification name="Computer Engineering" school="University of Mumbai" year="2009" comment="Percentage 61%" />
-        <qualification name="H.S.C." school="Maharashtra Board" year="2005" comment="Percentage 84%" />
-        <qualification name="S.S.C." school="Maharashtra Board" year="2003" comment="Percentage 78%" />
-      </qualifications>
-    </description>
-  </section>
   <projects>
-    <company name="Technology Nexus AB" from="2016-03">
+    <company name="Macrometa" from="2022-02">
+      <project name="Parsec Platform for Global Data Network" from="2022-02">
+        <description>
+          Designed and implemented scale-out solution to support million of concurrent users with high throughput and low latency.
+        </description>
+        <role>
+          Designed and implemented the solution
+        </role>
+        <technologies>
+          <hlist>
+            <entry>C++</entry>
+            <entry>Node.js</entry>
+            <entry>Redis</entry>
+            <entry>Pulsar</entry>
+          </hlist>
+        </technologies>
+      </project>
+    </company>
+    <company name="Crowdstrike" from="2020-01" to="2021-06">
+      <project name="Spotlight Support for Linux" from="2020-01" to="2021-06">
+        <description>
+          Designed and implemented Spotlight Vulnerability Management
+          support for Linux platform. This involved identifying which applications are installed
+          on the host and syncing it with cloud.
+        </description>
+        <role>
+          Designed and implemented the complete feature
+        </role>
+        <technologies>
+          <hlist>
+            <entry>C++</entry>
+            <entry>GTest</entry>
+            <entry>Go</entry>
+          </hlist>
+        </technologies>
+      </project>
+    </company>
+    <company name="Technology Nexus AB" from="2016-03" to="2020-01" >
       <project name="Hybrid Access Gateway" from="2017-01">
         <description>
-          Designed and implemented new features in Hybrid Access Gateway project. This included OpenID Connect, Nexus Go, SAML unsolicited response. Responsible for enhancing performance of Access Point component.
+          Designed and implemented new features in Hybrid Access Gateway project. This included OpenID Connect, Nexus Go, SAML unsolicited response.
+          Responsible for enhancing performance of Access Point component.
         </description>
         <role>
           Designed and implemented new features
@@ -351,56 +327,17 @@
         </technologies>
       </project>
     </company>
-    <company name="Motor Exchange" from="2009-08" to="2009-12">
-      <project name="CartradeIndia.com" from="2009-08" to="2009-12">
-        <description>Maintenance of cartradeindia.com website.</description>
-        <role>
-          Job involved maintenance and enhancement of the site. Required use of PHP, Java for
-          developing web scrappers.
-        </role>
-        <technologies>
-          <hlist>
-            <entry>PHP</entry>
-            <entry>MySQL</entry>
-          </hlist>
-        </technologies>
-      </project>
-    </company>
-    <company name="Three Pixels" from="2009-02" to="2009-06">
-      <project name="ConnectWithHimalaya.com" from="2009-02" to="2009-05">
-        <description>Developed Website for ConnectWithHimalaya.com.</description>
-        <role>
-          Connect With Himalaya was one of our very first projects. It was a very graphic centric
-          project. We were required to provide the client with a admin section which enabled him to
-          customized the whole site. User could manage each and every page from the admin section.
-        </role>
-        <technologies>
-          <hlist>
-            <entry>PHP</entry>
-            <entry>Javascript</entry>
-            <entry>MySQL</entry>
-          </hlist>
-        </technologies>
-      </project>
-      <project name="Sheet Cutting Suite" from="2009-05" to="2009-06">
-        <description>
-          Glass cutting suite which keeps track of inventory and helps with calculations.
-        </description>
-        <role>
-          This project used Hibernate &amp; MySql for back end and used Java Swings for front end.
-          It also uses a unique algorithm which was created in house for enabling multiple sheets 
-          to be cut from a single sheet for glass with minimum waste and minimum cuts.
-        </role>
-        <technologies>
-          <hlist>
-            <entry>Java</entry>
-            <entry>Hibernate</entry>
-            <entry>MySQL</entry>
-          </hlist>
-        </technologies>
-      </project>
-    </company>
   </projects>
+  <section>
+    <title>Education background</title>
+    <description>
+      <qualifications>
+        <qualification name="Computer Engineering" school="University of Mumbai" year="2009" comment="Percentage 61%" />
+        <qualification name="H.S.C." school="Maharashtra Board" year="2005" comment="Percentage 84%" />
+        <qualification name="S.S.C." school="Maharashtra Board" year="2003" comment="Percentage 78%" />
+      </qualifications>
+    </description>
+  </section>
   <section>
     <title>Publications/Patents</title>
     <description>
@@ -408,7 +345,7 @@
         <entry>US 8,762,341 : Efficiently configuring multiple backup data policies with information specifying data to backup.</entry>
         <entry>US 8,990,164 : Systems and methods for performing incremental backups.</entry>
         <entry>US 9,979,785 : Systems and methods for restoring data from opaque data backup streams.</entry>
-        <entry>One patent pending with Sureline Systems</entry>
+        <entry>US 10,824,516: Method and system of universal server migration.</entry>
         <entry>Optimized Snapshot Device Selection in Target-based Arrays (IP.com)</entry>
       </nlist>
     </description>
