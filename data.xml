@@ -8,7 +8,7 @@
   <section>
     <title>Current Role Description</title>
     <description>
-      Currently working as Member of Technical Staff at Macrometa.
+      Most recently worked as Member of Technical Staff at Macrometa. Currently, pursuing MTech in AI/ML under work integrated learning programme.
     </description>
   </section>
   <section>
@@ -67,7 +67,7 @@
     <description>
       <experiences>
         <company name="Macrometa">
-          <designation name="Member of Techical Staff" from="2022-02" />
+          <designation name="Member of Techical Staff" from="2022-02" to="2023-07" />
         </company>
         <company name="Crowdstrike">
           <designation name="Senior Software Engineer" from="2020-01" to="2021-06"/>
@@ -88,10 +88,59 @@
     </description>
   </section>
   <projects>
-    <company name="Macrometa" from="2022-02">
-      <project name="Parsec Platform for Global Data Network" from="2022-02">
+    <company name="Macrometa" from="2022-02" to="2023-07">
+      <project name="Scaleout and global ratelimiting in waiting room service" from="2023-01" to="2023-07">
         <description>
           Designed and implemented scale-out solution to support million of concurrent users with high throughput and low latency.
+          This project had challenge around global rate limiting of users in order to protect the backend services.
+        </description>
+        <role>
+          Analyzed the solution from scalability perspective, implemented changes to the design.
+        </role>
+        <technologies>
+          <hlist>
+            <entry>C++</entry>
+            <entry>Pulsar</entry>
+            <entry>Drogon framework</entry>
+          </hlist>
+        </technologies>
+      </project>
+      <project name="OTT Platform services for Ads and Streaming" from="2022-11" to="2023-01">
+        <description>
+          Designed and implemented scale-out solution to support million of concurrent users with high throughput and low latency.
+          The solution provided user cohort information and detected piracy during live streaming in OTT platforms.
+        </description>
+        <role>
+          Designed and implemented the solution. Lead a team of 4 engineers (2 developers and 2 QA)
+        </role>
+        <technologies>
+          <hlist>
+            <entry>C++</entry>
+            <entry>Redis</entry>
+            <entry>Pulsar</entry>
+            <entry>Drogon framework</entry>
+          </hlist>
+        </technologies>
+      </project>
+      <project name="Resiliency for Global Data Network" from="2022-06" to="2022-11">
+        <description>
+          Designed and implemented solution to enable fault tolerance and elasticity without user knowing about underlying infrastructure movement.
+        </description>
+        <role>
+          Designed and implemented the solution.
+        </role>
+        <technologies>
+          <hlist>
+            <entry>C++</entry>
+            <entry>Nodejs</entry>
+            <entry>Pulsar</entry>
+          </hlist>
+        </technologies>
+      </project>
+      <project name="Tenant specific distributed rate limiting" from="2022-02" to="2022-06">
+        <description>
+          Replaced API gateway of Global Data Network platform from Ambassador to APISIX.
+          Implemented low latency rate limiting for each tenant.
         </description>
         <role>
           Designed and implemented the solution
@@ -99,9 +148,8 @@
         <technologies>
           <hlist>
             <entry>C++</entry>
-            <entry>Node.js</entry>
             <entry>Redis</entry>
-            <entry>Pulsar</entry>
+            <entry>LUA</entry>
           </hlist>
         </technologies>
       </project>
@@ -332,6 +380,7 @@
     <title>Education background</title>
     <description>
       <qualifications>
+        <qualification name="MTech AI/ML" school="BITS Pilani" year="2025" comment="In progress" />
         <qualification name="Computer Engineering" school="University of Mumbai" year="2009" comment="Percentage 61%" />
         <qualification name="H.S.C." school="Maharashtra Board" year="2005" comment="Percentage 84%" />
         <qualification name="S.S.C." school="Maharashtra Board" year="2003" comment="Percentage 78%" />
