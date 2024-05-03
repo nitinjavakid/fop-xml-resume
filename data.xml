@@ -8,7 +8,7 @@
   <section>
     <title>Current Role Description</title>
     <description>
-      Most recently worked as Member of Technical Staff at Macrometa. Currently, pursuing MTech in AI/ML under work integrated learning programme.
+      Currently working as Staff Software Engineer at Takeoff Technologies.
     </description>
   </section>
   <section>
@@ -39,6 +39,7 @@
       <hashtable first-width="6cm"> 
         <hash-entry>
           <key>Programming Languages</key>
+          <value>Go</value>
           <value>C/C++</value>
           <value>Java</value>
         </hash-entry>
@@ -66,8 +67,11 @@
     <title>Experience</title>
     <description>
       <experiences>
+        <company name="Takeoff Technologies">
+          <designation name="Staff Software Engineer" from="2023-09" />
+        </company>
         <company name="Macrometa">
-          <designation name="Member of Techical Staff" from="2022-02" to="2023-07" />
+          <designation name="Member of Technical Staff" from="2022-02" to="2023-07" />
         </company>
         <company name="Crowdstrike">
           <designation name="Senior Software Engineer" from="2020-01" to="2021-06"/>
@@ -88,6 +92,38 @@
     </description>
   </section>
   <projects>
+    <company name="Takeoff Technologies" from="2023-09">
+      <project name="Conversion from single tenant to multi-tenant services" from="2023-09">
+        <description>
+          Designed and architected the movement of services from being single tenant to multi-tenant.
+        </description>
+        <role>
+          Designed and implemented solution
+        </role>
+        <technologies>
+          <hlist>
+            <entry>Go</entry>
+            <entry>Firebase</entry>
+            <entry>Terraform</entry>
+          </hlist>
+        </technologies>
+      </project>
+      <project name="Reliability of order management service" from="2023-09" to="2024-01">
+        <description>
+          Debugged and fixed core order management service which was facing reliability issues.
+        </description>
+        <role>
+          Debugged and fixed service
+        </role>
+        <technologies>
+          <hlist>
+            <entry>Java</entry>
+            <entry>Postgres</entry>
+            <entry>Kubernetes</entry>
+          </hlist>
+        </technologies>
+      </project>
+    </company>
     <company name="Macrometa" from="2022-02" to="2023-07">
       <project name="Scaleout and global ratelimiting in waiting room service" from="2023-01" to="2023-07">
         <description>
