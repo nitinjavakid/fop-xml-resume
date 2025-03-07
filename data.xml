@@ -5,12 +5,12 @@
   <address>C-702, Urban Nirvana, S.No. 57/4, Kharadi, Pune-411014.</address>
   <phone>+919860420747</phone>
   <email>nitinjavakid@gmail.com</email>
-  <section>
+  <!--<section>
     <title>Current Role Description</title>
     <description>
-      Currently working as Staff Software Engineer at Takeoff Technologies.
+      Currently working as Staff Software Engineer at Addverb Technologies.
     </description>
-  </section>
+  </section>-->
   <section>
     <title>Skill/Experience Summary</title>
     <description>
@@ -67,8 +67,11 @@
     <title>Experience</title>
     <description>
       <experiences>
+        <company name="Addverb Technologies">
+          <designation name="Staff Software Engineer" from="2024-06" to="2025-03" />
+        </company>
         <company name="Takeoff Technologies">
-          <designation name="Staff Software Engineer" from="2023-09" />
+          <designation name="Staff Software Engineer" from="2023-09" to="2024-06" />
         </company>
         <company name="Macrometa">
           <designation name="Member of Technical Staff" from="2022-02" to="2023-07" />
@@ -92,8 +95,39 @@
     </description>
   </section>
   <projects>
-    <company name="Takeoff Technologies" from="2023-09">
-      <project name="Conversion from single tenant to multi-tenant services" from="2023-09">
+    <company name="Addverb Technologies" from="2024-06" to="2025-03">
+      <project name="Hardware Simulator" from="2024-10" to="2025-03">
+        <description>
+          Designed and implementated hardware simulator that would help test path and storage optimizations
+          without hardware dependenncy
+        </description>
+        <role>
+          Designed and implemented solution
+        </role>
+        <technologies>
+          <hlist>
+            <entry>Java</entry>
+            <entry>Spring</entry>
+          </hlist>
+        </technologies>
+      </project>
+      <project name="Reliability of picking and storage system" from="2024-06" to="2025-03">
+        <description>
+          Identified issues in the picking and storage system implementation. Guided team towards using best
+          practices towards software development for writing reliable system.
+        </description>
+        <role>
+          Debugged issues, implemented fixes and established guidelines for new development
+        </role>
+        <technologies>
+          <hlist>
+            <entry>Java</entry>
+          </hlist>
+        </technologies>
+      </project>
+    </company>
+    <company name="Takeoff Technologies" from="2023-09" to="2024-06">
+      <project name="Conversion from single tenant to multi-tenant services" from="2023-09" to="2024-06">
         <description>
           Designed and architected the movement of services from being single tenant to multi-tenant.
         </description>
